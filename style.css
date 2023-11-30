@@ -1,0 +1,68 @@
+/* <!--defaul body change--> */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* heading part  */
+h1{
+text-align: center;
+color: red;
+}
+.first-box{
+    width: 500px;
+    height: auto;
+    margin:0 auto;
+    border: 2px solid red;
+    background-color: black;
+}
+.second-box{
+    margin: 0 auto;
+    max-width: 450px;
+    text-align: center;
+    margin-top: 20px;
+
+    transition:0.5s;
+
+}
+
+
+.heading-part #result{
+    width: 409px;
+    height: 120px;
+    font-size: larger;
+    font-weight: bold;
+    text-align: end;
+    padding: 3px;
+    letter-spacing: 3px;
+}
+.btn{
+    width: 100px;
+    height: 80px;
+    font-weight: bold;
+    background-color: aqua;
+    color:black;
+    font-size: 30px;
+}
+.row .btn:hover{
+    background-color: black;
+    color: white;
+}
+#side{
+    color:red;
+    background-color: black;
+    
+}
+#side4{
+    color:red;
+    background-color: orange;
+}
+
+
+
+
+#side4:hover{
+    background-color: white;
+}
+#side:hover{
+    background-color: white;
+}
